@@ -1,0 +1,972 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+body {
+    width: 1512px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    background-color: #FAF6F6;
+    height: 106px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 43px;
+}
+
+.menu__list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 0 88px;
+}
+
+.nav {
+    margin-right: 43px;
+}
+
+#red__circle {
+    color: #FF3C82;
+    border: 1px solid #FF3C82;
+    padding: .8svw 2.5svw;
+    border-radius: .3svw;
+    background-color: #FAF6F6;
+}
+
+.intro {
+    height: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5px
+}
+
+.intro__leftBlock {
+    width: 50%;
+    height: auto;
+}
+
+
+
+.intro__text {
+    font-weight: 300;
+    margin: 0;
+    font-size: 83px;
+    padding-left: 43px;
+}
+
+
+.third__String {
+    padding-left: 243px;
+}
+
+.fourth__String {
+    display: flex;
+    margin-left: 69px;
+    padding: 0px;
+}
+
+
+.fastEasySafe {
+    font-size: 23px;
+    padding-top: 55px;
+}
+
+.word__Instantly {
+    margin-left: 6px;
+    color: #1A9ED6;
+    font-size: 83px;
+}
+
+#red__back__circle {
+    color: #ffffff;
+    border: 1px solid #FF3C82;
+    background-color: #FF3C82;
+    padding: .7svw 5svw;
+    border-radius: .5svw;
+}
+
+.fivth__String {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+    padding-left: 69px;
+    padding-right: 243px;
+}
+
+#fivth__String {
+    padding-top: 8px;
+    border-bottom: 1px solid black;
+}
+
+.intro__rightBlock {
+    width: 50%;
+    position: relative;
+}
+
+.ROMBS {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 43px;
+    align-items: center;
+    gap: 0 88px;
+}
+
+.twoRombs {
+    padding: 52px;
+}
+
+.backRombsecond {
+    padding-bottom: 204px;
+}
+
+.backRombsecond::before {
+    content: "";
+    background-image: url(./img/image\ copy\ 2.png);
+    position: absolute;
+    top: 4%;
+    left: 28%;
+    background-size: cover;
+    width: 124px;
+    height: 124px;
+}
+
+.backRombthird::before {
+    content: "";
+    background-image: url(./img/image\ copy\ 4.png);
+    position: absolute;
+    top: 61%;
+    left: 28%;
+    background-size: cover;
+    width: 124px;
+    height: 124px;
+}
+
+.backRombfirst::before {
+    content: "";
+    background-image: url(./img/image\ copy\ 3.png);
+    position: absolute;
+    top: 33%;
+    left: 73%;
+    background-size: cover;
+    width: 124px;
+    height: 124px;
+}
+
+.how-Zharta {
+    height: 800px;
+    width: auto;
+    background-color: #041B33;
+}
+
+.how-Zharta-firstDiv {
+    height: 281px;
+    display: flex;
+}
+
+.how-Zharta-intro {
+    color: #ffffff;
+    margin-left: 48px;
+    margin-top: 75px;
+}
+
+.Zagolovok {
+    font-size: 60px;
+    font-weight: inherit;
+}
+
+#Zharta-red {
+    color: #F42664;
+}
+
+#Zharta-blue {
+    color: #1A9ED6;
+}
+
+.how-Zharta-Borrowers {
+    margin-left: 405px;
+    margin-top: 222px;
+    color: #FAF6F6;
+    display: flex;
+    position: relative;
+}
+
+#red__back__circle-SecondVersion {
+    position: absolute;
+    right: 90%;
+    max-height: 20px;
+    color: #041B33;
+    border: 1px solid #FF3C82;
+    background-color: #FF3C82;
+    padding: .7svw 2.5svw;
+    border-radius: .5svw;
+    font-size: 15px;
+    font-weight: inherit;
+}
+
+#red__back__circle-thirdVersion {
+    max-height: 20px;
+    color: #FAF6F6;
+    border: 1px solid #FF3C82;
+    background-color: #041B33;
+    padding: 0.6svw 2.5svw;
+    border-radius: .5svw;
+    font-size: 15px;
+    font-weight: inherit;
+}
+
+.how-Zharta-secondDiv {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.polovina-width {
+    width: 50%;
+    height: auto;
+    color: #FAF6F6;
+    font-size: 13.33px;
+    position: relative;
+    margin-top: 206px;
+}
+
+.Zharta-text {
+    padding-bottom: 45px;
+    padding-left: 100px;
+}
+
+#Select-the-amount {
+    color: #FF3C82;
+}
+
+.create-line1 {
+    width: 40px;
+    border-top: 1px solid #FF3C82;
+    position: absolute;
+    top: 11%;
+    left: 7%;
+}
+
+.create-line2 {
+    width: 40px;
+    border-top: 1px solid #FF3C82;
+    position: absolute;
+    top: 49%;
+    left: 7%;
+}
+
+.how-ZhartaPictures {
+    position: relative;
+    width: 50%;
+}
+
+.ysl {
+    color: #FAF6F6;
+    font-size: 80px;
+    top: 10%;
+    position: absolute;
+    font-weight: 400;
+}
+
+.eight {
+    padding-left: 1px;
+}
+
+.T6 {
+    color: #FAF6F6;
+    font-size: 80px;
+    position: absolute;
+    top: 86%;
+    font-weight: 400;
+}
+
+.S {
+    padding-left: 3px;
+    font-size: 76px;
+    padding-top: 4px;
+}
+
+.six {
+    font-size: 80px;
+}
+
+.nftPictures {
+    color: #FAF6F6;
+    margin-top: 70px;
+}
+
+.loanAmount {
+    padding-left: 510px;
+    font-size: 12px;
+    z-index: 2;
+    position: sticky;
+}
+
+.threeZeroOne {
+    font-size: 18px;
+    padding-left: 527px;
+    position: relative;
+}
+
+.threeZeroOne::before {
+    content: "3.01";
+    top: -64%;
+    position: absolute;
+    color: #F42664;
+    z-index: 1;
+}
+
+.create-line3 {
+    width: 660px;
+    border-top: 1px solid #FF3C82;
+    position: absolute;
+    top: 28%;
+    left: 3%;
+}
+
+.lineInterestMax {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 74px 0px 22px;
+    font-size: 12px;
+    position: relative;
+}
+
+.interest::before {
+    content: "Interest";
+    top: 82%;
+    position: absolute;
+    color: #FAF6F6;
+}
+
+.max::before {
+    content: "Max";
+    top: 82%;
+    position: absolute;
+    color: #FAF6F6;
+}
+
+.zeroTwoEighteight {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 74px 0px 22px;
+    font-size: 12px;
+}
+
+.zeroTwo {
+    position: relative;
+    z-index: 0;
+}
+
+.zeroTwo::before {
+    content: "0.0288%";
+    top: -20%;
+    left: 3%;
+    position: absolute;
+    color: #F42664;
+    z-index: -1;
+}
+
+.threeNinethree {
+    position: relative;
+    z-index: 0;
+}
+
+.threeNinethree::before {
+    content: "3.93";
+    position: absolute;
+    top: -20%;
+    left: 3%;
+    position: absolute;
+    color: #F42664;
+    z-index: -1;
+}
+
+.yourAsset {
+    font-size: 12px;
+    padding-left: 22px;
+    margin-top: 13px;
+    margin-bottom: 19px;
+    position: relative;
+}
+
+.yourAsset p::before {
+    content: "Your assets";
+    position: absolute;
+    top: 6%;
+    left: 3%;
+}
+
+.nftCoolCat {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    margin-left: 38px;
+
+}
+
+.nftCoolCat img {
+    margin-right: 41px;
+    margin-top: 26px;
+    border-radius: 10px;
+}
+
+.Sasha {
+    position: absolute;
+    margin-left: 13px;
+    bottom: 23%;
+    display: flex;
+    gap: 0 14px;
+}
+
+.d19 {
+    margin-left: 24px;
+    width: 90px;
+    height: 90px;
+    border: 1px solid #FF3C82;
+    transform: rotate(45deg);
+    /* Поворот на 45 градусов, чтобы получить ромб */
+}
+
+.usdcPoolOverview {
+    position: absolute;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 60px;
+    width: 91%;
+}
+
+.afterDollar {
+    padding: 55px;
+    box-sizing: border-box;
+}
+
+.afterThreeFive {
+    margin-left: 155px;
+}
+
+h6 {
+    font-weight: 300;
+}
+
+.hSix {
+    margin-left: 450px;
+}
+
+.usdcPoolTable {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.Apy {
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.usdcPoolTableTwo {
+    display: flex;
+}
+
+.fontSasha {
+    font-size: 18px;
+}
+
+.Time {
+    font-size: 12px;
+    padding-left: 40px;
+}
+
+.threeFourDay {
+    position: absolute;
+    top: 28%;
+    left: 82%;
+}
+
+.howCanYouStart {
+    height: 1200px;
+    width: auto;
+    background-color: #041B33;
+}
+
+.howcanyoustartIntro {
+    display: flex;
+}
+
+.howcanyoustartTitle {
+    margin-left: 48px;
+    margin-top: 75px;
+}
+
+.howcanyoustartTitle h2 {
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: inherit;
+}
+
+.youcanEarn {
+    margin-left: 290px;
+    margin-top: 72px;
+}
+
+.youcanEarn h6 {
+    font-size: 12px;
+    font-weight: inherit;
+    color: #ffffff;
+}
+
+.fiveSixfive h2 {
+    font-size: 28px;
+    font-weight: inherit;
+    color: #ffffff;
+}
+
+.USDC {
+    font-size: 12px;
+}
+
+.eightTEEN h2 {
+    font-size: 28px;
+    font-weight: inherit;
+    color: #ffffff;
+}
+
+.eightTEEN {
+    margin-left: 22px;
+    margin-top: 86px;
+}
+
+.howcanyoustartMain {
+    display: flex;
+    padding-top: 82px;
+}
+
+.forBorrowers {
+    padding-left: 158px;
+}
+
+.forBorrowers h4 {
+    font-size: 30px;
+    font-weight: inherit;
+    color: #ffffff;
+}
+
+.forLenders {
+    margin-left: 508px;
+}
+
+.forLenders h4 {
+    font-size: 30px;
+    font-weight: inherit;
+    color: #dad0d0;
+}
+
+.borrowAndlenderText {
+    display: flex;
+    justify-content: space-around;
+}
+
+.forBorrowersText {
+    width: 668px;
+    height: 778px;
+    background-color: #ffffff20;
+    margin-top: 53px;
+    border-radius: 3%;
+    padding-top: 65px;
+    padding-left: 90px;
+    padding-right: 73px;
+    box-sizing: border-box;
+}
+
+.clickBorrowNow {
+    font-size: 14px;
+    font-weight: 300;
+    color: #ffffff;
+    padding-top: 8px;
+}
+
+.zeroOne {
+    font-size: 30px;
+    color: #F42664;
+    padding-right: 40px;
+    font-weight: 300;
+}
+
+.borrowBlocks {
+    display: flex;
+}
+
+.create-line {
+    width: 448px;
+    border-top: 1px solid #FF3C82;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.zeroSecond {
+    font-size: 30px;
+    color: #ffffff;
+    padding-right: 40px;
+    font-weight: 300;
+}
+
+.lineColor {
+    border-top: 1px solid #1A9ED6;
+}
+
+.whyZharta {
+    height: 1100px;
+    width: auto;
+}
+
+.whyZhartaIntro {
+    margin-left: 48px;
+    margin-top: 75px;
+}
+
+.whyZhartaIntro h2 {
+    font-size: 60px;
+    color: #041B33;
+    font-weight: inherit;
+}
+
+.whyZhartaMain {
+    display: flex;
+    justify-content: space-around;
+}
+
+.whyZharta_block {
+    background-color: #F6F1F3;
+    width: 500px;
+    height: 423px;
+    border-radius: 3%;
+    position: relative;
+    font-size: 30px;
+}
+
+.firstblock {
+    margin-top: 202px;
+}
+
+.secondblock {
+    margin-top: 42px;
+}
+
+.robm52 {
+    width: 180px;
+    height: 180px;
+    border: 1px solid #FF3C82;
+    transform: rotate(45deg);
+    /* Поворот на 45 градусов, чтобы получить ромб */
+    position: absolute;
+    top: 20%;
+    left: 45%;
+}
+
+.backRomb {
+    left: 52%;
+}
+
+.firstblock img {
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.whyZharta_block p {
+    text-align: center;
+    padding-top: 330px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 23px;
+}
+
+.circle {
+    width: 260px;
+    height: 260px;
+    border-radius: 150px;
+    outline: 1px solid #FF3C82;
+    position: absolute;
+    top: 12%;
+    left: 45%;
+}
+
+.circleTwo {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    outline: 1px solid #FF3C82;
+    position: absolute;
+    top: 19%;
+    left: 51.5%;
+}
+
+.secondblock img {
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 90px;
+    border-radius: 10px;
+}
+
+.whyZhartaThirdblock {
+    padding-left: 760px;
+    padding-top: 107px;
+    padding-right: 48px;
+    font-size: 23px;
+    color: #041B33;
+    font-weight: inherit;
+}
+
+.ourTeam {
+    height: 850px;
+    width: auto;
+}
+
+.ourTeamTitle {
+    margin-left: 48px;
+}
+
+.ourTeamTitle h2 {
+    font-size: 60px;
+    color: #041B33;
+    font-weight: inherit;
+}
+
+.teamNames {
+    display: flex;
+    margin-left: 48px;
+    justify-self: space-around;
+}
+
+.teamAvatar {
+    position: relative;
+    margin-right: 150px;
+}
+
+.teamAvatar p {
+    padding-top: 40px;
+}
+
+
+.teamAvatar::before {
+    content: "";
+    background-image: url(./img/image\ copy\ 5.png);
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    width: 200px;
+    height: 200px;
+}
+
+.teamAvatar img {
+    border-radius: 10px;
+    margin-left: 27px;
+    margin-top: 20px;
+}
+
+.firstVersion {
+    margin-top: 106px;
+}
+
+.secondVesion {
+    margin-top: 295px;
+}
+
+.thirdVersion {
+    margin-top: 37px;
+}
+
+.linkedin {
+    color: #ffffff;
+    width: 25px;
+    height: auto;
+    background-color: black;
+    border-radius: 2px;
+    margin-top: 16px;
+    text-align: center;
+    margin-bottom: 140px;
+}
+
+.wouldYouLike {
+    height: 168px;
+    width: 408px;
+    color: black;
+    background-color: #F6F1F3;
+    margin-top: 350px;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 23px;
+}
+
+.checkOut {
+    color: #F42664;
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.create-line52 {
+    width: 200px;
+    border-top: 1px solid #1A9ED6;
+    top: 11%;
+    left: 7%;
+}
+
+.Investors {
+    height: 800px;
+    width: auto;
+    background-color: #041B33;
+}
+
+.Investors h2 {
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 300;
+    padding-left: 48px;
+    padding-top: 75px;
+}
+
+.gridInvestors {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(5, 150px);
+    row-gap: 40px;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.gridInvestors img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.create-lineblue {
+    width: 1200px;
+    margin-left: 150px;
+    border-top: 1px solid #3CCDE0;
+}
+
+.Audit {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.ah2 {
+    padding-left: 1100px;
+    font-size: 30px;
+    color: #FAF6F6;
+}
+
+.FAQs {
+    height: 1000px;
+    width: auto;
+    position: relative;
+}
+
+.FAQs h2 {
+    font-size: 60px;
+    font-weight: 300;
+    padding-left: 48px;
+    padding-top: 75px;
+}
+
+.menuFAQs {
+    margin-top: 70px;
+}
+
+.faqsFirst {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 48px;
+    margin-right: 48px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.arrow-down {
+    border: solid #F42664;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 7px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.create-line20 {
+    margin-left: 48px;
+    margin-right: 48px;
+    width: auto;
+    border-top: 1px solid #FF3C82;
+}
+
+.footer {
+    height: 300px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer h4 {
+    font-weight: 300;
+    font-size: 23px;
+    margin-bottom: 25px;
+}
+
+.blockInfo h6 {
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.subcribeLetter {
+    color: #FF3C82;
+    border: 1px solid #FF3C82;
+    padding: 2svw 2svw;
+    border-radius: .3svw;
+    position: relative;
+}
+
+.subcribeLetter::before {
+    content: "M";
+    color: #ffffff;
+    font-size: 30px;
+    border: 1px solid #FF3C82;
+    background-color: #FF3C82;
+    padding: 12px;
+    border-radius: .3svw;
+    position: absolute;
+    top: -1%;
+    right: 0%;
+}
+
+.athorityRight {
+    padding-top: 170px;
+}
+
+.shapedBy {
+    padding-top: 140px;
+}
